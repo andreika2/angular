@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular';
+  name = 'Test text';
+
+  ClickMe(){
+
+    console.log(this.name);
+
+  }
 }
